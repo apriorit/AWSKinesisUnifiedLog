@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicKinesisWrite", "BasicKinesis\BasicKinesisWrite.csproj", "{EE2D559B-9F96-47D3-8E52-E98EBC21115C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BasicKinesisRead", "BasicKinesisRead\BasicKinesisRead.csproj", "{D8AD3858-1B29-40A8-B0B6-E7542BFA4932}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KCLKinesisRead", "KCLKinesisRead\KCLKinesisRead.csproj", "{20024351-5C3F-4DC8-BACD-B3802C738529}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "KCL", "KCL", "{11CDF04E-FC0D-4C65-AC31-FCFE55511689}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrap", "Bootstrap\Bootstrap.csproj", "{234C49ED-0C68-4C03-AC3F-F452C8C539B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientLibrary", "ClientLibrary\ClientLibrary.csproj", "{2E4948C3-64F2-4E80-8E00-C5316CA22543}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KinesisAgentWrite", "KinesisClientWrite\KinesisAgentWrite.csproj", "{A609D4D9-9EA8-4C47-A0E5-9E8F43FB8735}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE2D559B-9F96-47D3-8E52-E98EBC21115C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE2D559B-9F96-47D3-8E52-E98EBC21115C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE2D559B-9F96-47D3-8E52-E98EBC21115C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE2D559B-9F96-47D3-8E52-E98EBC21115C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8AD3858-1B29-40A8-B0B6-E7542BFA4932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8AD3858-1B29-40A8-B0B6-E7542BFA4932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8AD3858-1B29-40A8-B0B6-E7542BFA4932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8AD3858-1B29-40A8-B0B6-E7542BFA4932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20024351-5C3F-4DC8-BACD-B3802C738529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20024351-5C3F-4DC8-BACD-B3802C738529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20024351-5C3F-4DC8-BACD-B3802C738529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20024351-5C3F-4DC8-BACD-B3802C738529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234C49ED-0C68-4C03-AC3F-F452C8C539B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234C49ED-0C68-4C03-AC3F-F452C8C539B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234C49ED-0C68-4C03-AC3F-F452C8C539B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234C49ED-0C68-4C03-AC3F-F452C8C539B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E4948C3-64F2-4E80-8E00-C5316CA22543}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E4948C3-64F2-4E80-8E00-C5316CA22543}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E4948C3-64F2-4E80-8E00-C5316CA22543}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E4948C3-64F2-4E80-8E00-C5316CA22543}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A609D4D9-9EA8-4C47-A0E5-9E8F43FB8735}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A609D4D9-9EA8-4C47-A0E5-9E8F43FB8735}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A609D4D9-9EA8-4C47-A0E5-9E8F43FB8735}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A609D4D9-9EA8-4C47-A0E5-9E8F43FB8735}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{20024351-5C3F-4DC8-BACD-B3802C738529} = {11CDF04E-FC0D-4C65-AC31-FCFE55511689}
+		{234C49ED-0C68-4C03-AC3F-F452C8C539B9} = {11CDF04E-FC0D-4C65-AC31-FCFE55511689}
+		{2E4948C3-64F2-4E80-8E00-C5316CA22543} = {11CDF04E-FC0D-4C65-AC31-FCFE55511689}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {76B82BCF-FC12-4456-BA4F-F8DB1FEE8964}
+	EndGlobalSection
+EndGlobal
